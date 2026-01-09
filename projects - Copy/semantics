@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>facts about cristiano </title>
+</head>
+
+<body>
+    <header>
+        <h1>navigation links</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#posts">posts</a></li>
+                <li><a href="#contacts">contacts</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2></h2>
+                <p>Cristiano Ronaldo (CR7) is a Portuguese football legend, widely regarded as one of the greatest players of all time. He
+                currently plays for Al Nassr in Saudi Arabia and captains Portugal’s national team. Born on February 5, 1985, in Madeira, Portugal, Ronaldo's journey to stardom began at a young age. He joined Sporting CP's youth academy before moving to Manchester United in 2003. During his time at Manchester United, he won three Premier League titles and the UEFA Champions League.
+                In 2009, Ronaldo transferred to Real Madrid for a then-world record fee, where he became the club's all-time leading scorer and won four more Champions League titles. In 2018, he moved to Juventus in Italy, continuing his success by winning two Serie A titles. Ronaldo is known for his incredible goal-scoring ability, athleticism, and versatility on the field. He has won five Ballon d'Or awards, recognizing him as the best player in the world. Off the field, Ronaldo is also known for his philanthropy and business ventures, including his CR7 brand.
+
+
+                </p>
+
+            </article>
+
+            <aside>
+
+                <p>Did you know? Cristiano Ronaldo holds the record for the most goals scored in the UEFA Champions League, with over 130 goals to his name.
+
+                </p>
+            </aside>
+        </section>
+        <figure>
+            <img src="" />
+            <figcaption>cristiano</figcaption>
+
+
+
+        </figure>
+        <audio controls>
+            <source src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cristiano_Ronaldo.jpg/2560px-Cristiano_Ronaldo.jpg" type="audio/mp3">
+
+        </audio>
+        <video src="<iframe width="560" height="315" src="https://www.youtube.com/embed/QvbpeETBoGg?si=XbuQUUZquHq00sXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" controls></video>
+        <embed src="gif.gif" />
+
+
+
+    </main>
+    <footer>
+        <p>contact me +260 0950240572</p>
+    </footer>
+</body>
+
+</html>
