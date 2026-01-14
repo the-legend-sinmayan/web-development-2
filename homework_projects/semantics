@@ -38,17 +38,17 @@
             </aside>
         </section>
         <figure>
-            <img src="" />
+            <img src="cristiano-ronaldo-5120x2880-14055.png" />
             <figcaption>cute dogs.</figcaption>
 
 
 
         </figure>
         <audio controls>
-            <source src="dog-barking-707722.mp3" type="audio/mp3">
+            <source src="" type="audio/mp3">
 
         </audio>
-        <video src="dogvid.mp4" controls></video>
+        <video src="" controls></video>
         <embed src="gif.gif" />
 
 
