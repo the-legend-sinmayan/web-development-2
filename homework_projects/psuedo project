@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>welcome to fc club</h1>
+        <ul>
+            <li>kick-off</li>
+            <li>team formation</li>
+            <li>training sessions</li>
+            <li>team building</li>
+            <li>ball handling</li>
+        </ul>
+        <p>we are a football club dedicated to excellence and teamwork.</p>
+        <p>we use the best team formation</p>
+        <a href="#">latest news about fc club</a>
+        <a href="#">we alway buy the best palyer</a>
+        <a href="#">gallery of fc club</a>
+        
+    </body>
+</html>
