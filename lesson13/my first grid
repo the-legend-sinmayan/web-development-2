@@ -1,0 +1,32 @@
+<!doctypehtml>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+        </script>
+        <style>
+            .col{
+                text-align:center;
+                border:1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>equal width colum grid</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    column 1
+                </div>
+                <div class="col">
+                    column 2
+                </div>
+                <div class="col">
+                    column 3
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>
