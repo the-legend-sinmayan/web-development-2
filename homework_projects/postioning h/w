@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                right:30px;
+                border: 3px solid cyan;
+            }
+            div.absolute{
+                position: absolute;
+                top:50px;
+                border:3px solid palegreen;
+            }
+            div.relative{
+                position: relative;
+                top:50px;
+                border:3px solid pink;
+            }
+            div.fixed{
+                position: fixed;
+                top:0px;
+                right:20px;
+                width:300px;
+                border:3px solid lightgreen;
+            }
+            div.sticky{
+                position: sticky;
+                top:1px;
+                left:20px;
+                width:100px;
+                border:3px solid turquoise;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h2>hey sam this how u do positioning in css</h2>
+        <DIV>
+            div with no positioning
+        </DIV>
+        <div class="absolute">
+           aboslute class DIV
+        </div>
+        <div class="relative">
+            the div element has postion: relative;
+        </div>
+        <div class="fixed">
+            div with fixed position property
+        </div>
+        <div class="sticky">
+            div with sticky positioning
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </body>
+</html>
