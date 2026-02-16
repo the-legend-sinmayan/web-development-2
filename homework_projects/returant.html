@@ -1,28 +1,85 @@
 <!DOCTYPE html>
-<html lang ="en">
-    <head>
-        <meta charset="UTF-8">
-        <META HTTP-EQUIV="X-UA-Compatible" CONTENT="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>s.k resturant</title>
-            <link rel="stylesheet" href="css/bootstrap.min.css" >
-            <link rel="stylesheet" href="fontawesome/css/all.min.css">
-            <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header class="header-area">
-            <div class="menu-area">
-                <div class="container">
-                    <div class="second-menu">
-                        <div class="row align-content-center"></div>
-                            <div class ="col-xl-2 col-lg-2">
-                                <div class="logo">
-                                    <a href="#"><img src="spiderman.webp" alt="logo"></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 text-right d-lg-block"></div>
-                    </div>
-                </div>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Feast Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Grand Feast</h1>
+            <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>Reservations</li>
+                <li>Gallery</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Fine Dining Experience</h2>
+        <button>Reserve a Table</button>
+    </section>
+
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="starter.jpg" alt="Starter">
+                <h3>Bruschetta</h3>
+                <p>Fresh tomatoes, basil, olive oil</p>
+                <span>$8</span>
             </div>
-        </header>
-    </body>
+            <!-- Repeat for other items -->
+        </div>
+    </section>
+
+    <section class="reservations">
+        <h2>Book a Table</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="date" required>
+            <input type="time" required>
+            <input type="number" placeholder="Guests" required>
+            <button type="submit">Reserve</button>
+        </form>
+    </section>
+
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="dish1.jpg" alt="Dish">
+            <img src="interior.jpg" alt="Interior">
+            <!-- More images -->
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>Founded in 1998, Grand Feast blends tradition with innovation...</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>123 Main Street, City</p>
+        <p>Open: Mon–Sun, 11am–11pm</p>
+        <form>
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Grand Feast | Follow us on Instagram</p>
+    </footer>
+</body>
+
+</html>
