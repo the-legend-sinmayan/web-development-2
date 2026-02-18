@@ -60,3 +60,10 @@ h1{
     position: realtive;
     
 }
+
+.slider-content{
+    position :relative;
+    z-index:2;
+    margin-left:-150px;
+
+}
