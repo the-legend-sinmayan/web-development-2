@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <img src="circular profile log.png" alt="Sinmayan's Kitchen Logo" class="logo" />
+        <nav>
+            <ul>
+                <!-- your nav links -->
+            </ul>
+        </nav>
+    </header>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sinmayan's Kitchen</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Sinmayan's Kitchen</h1>
+        <style>
+            /* Navigation bar container */
+            nav {
+                display: flex;
+                justify-content: flex-end;
+                /* aligns links to the right */
+                background-color:#8b0000;
+                padding: 10px;
+                position: fixed;
+                /* keeps it at the top */
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
+        
+            /* Navigation links */
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 18px;
+            }
+        
+            /* Hover effect */
+            nav a:hover {
+                color: yellow;
+            }
+        
+            /* Add some page content so you can scroll */
+            body {
+                margin: 0;
+                padding-top: 60px;
+                /* prevents content from hiding under nav */
+                font-family: Arial, sans-serif;
+            }
+        </style>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#staff">Our Staff</a></li>
+                <li><a href="#specialties">Specialties</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Welcome to Sinmayan's Kitchen</h2>
+        <p>Authentic flavors, crafted with love.</p>
+        <a href="#contact" class="cta-btn">Reserve a Table</a>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Sinmayan's Kitchen is a family-run restaurant blending tradition with modern taste. We pride ourselves on
+            fresh ingredients, warm hospitality, and recipes passed down through generations.</p>
+    </section>
+
+    <!-- Staff -->
+    <section id="staff" class="staff">
+        <h2>Meet Our Team</h2>
+        <div class="staff-grid">
+            <div class="staff-card">
+                <img src="profile picture of a man.png" alt="Head Chef" />
+                <h3>Chef Sinmayan</h3>
+                <h4>sinmayan kokulanth</h4>
+                <p>Master of flavors, bringing passion to every dish.</p>
+                
+            </div>
+            <div class="staff-card">
+                <img src="realistic portrait o.png" alt="Manager" />
+                <h3>resturant manager</h3>
+                <h4>joseph obama</h4>
+                <p>Ensuring every guest feels at home.</p>
+            </div>
+            <div class="staff-card">
+                <img src="waiter.webp" alt="Waiter" />
+                <h3>waiter of the year</h3>
+                <p>Friendly faces delivering your dining experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialties -->
+    <section id="specialties" class="specialties">
+        <h2>Our Specialties</h2>
+        <ul>
+            <li><strong>Signature Curry</strong> – A rich, aromatic blend of spices.</li>
+            <li><strong>Grilled Lamb</strong> – Tender, juicy, and marinated to perfection.</li>
+            <li><strong>Vegetarian Feast</strong> – Fresh, colorful, and full of flavor.</li>
+        </ul>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>Chicken Biryani</li>
+            <li>Paneer Butter Masala</li>
+            <li>Beef Stew</li>
+            <li>Fresh Garden Salad</li>
+        </ul>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="chicken briyani.webp" alt="chicken bryiani" />
+            <img src="beef stew.webp" alt="beef stew" />
+            <img src="modern restaurant ex.png" alt="Restaurant Interior" />
+            <img src="speacial event.webp" alt="Special Event" />
+        </div>
+    </section>
+
+    <!-- Events -->
+    <section id="events" class="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li><strong>Friday Night Live</strong> – Local band performance</li>
+            <li><strong>Chef’s Special Week</strong> – Limited edition menu</li>
+            <li><strong>Holiday Feast</strong> – Celebrate with family-style dining</li>
+        </ul>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Guests Say</h2>
+        <div class="testimonial">
+            <p>"The best curry I've ever had! Warm atmosphere and friendly staff."</p>
+            <span>- Maria K.</span>
+        </div>
+        <div class="testimonial">
+            <p>"Sinmayan's Kitchen feels like home. Highly recommend the grilled lamb."</p>
+            <span>- James P.</span>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter" class="newsletter">
+        <h2>Stay Updated</h2>
+        <form>
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>📍 Lusaka, Zambia</p>
+        <p>📞 +260-123-456-789</p>
+        <p>⏰ Open: Mon–Sun, 10 AM – 10 PM</p>
+        <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Sinmayan's Kitchen | Follow us on
+            <a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Twitter</a>
+        </p>
+    </footer>
+</body>
+
+</html>

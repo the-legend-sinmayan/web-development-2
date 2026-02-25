@@ -1,0 +1,212 @@
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #fff8f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #8b0000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero {
+    background: url('modern\ restaurant\ ex.png') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background: cadetblue;
+    color: #333;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-btn:hover {
+    background: chartreuse;
+}
+
+
+section {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #8b0000;
+}
+
+
+.staff-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.staff-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.staff-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.staff-card:hover {
+    transform: scale(1.05);
+}
+
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+
+.events ul {
+    list-style: none;
+    padding: 0;
+}
+
+.events li {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    }
+body {
+    background: #fffaf3;
+
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #d35400;
+   
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero {
+    background: url('modern\ restaurant\ ex.png') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #f1c40f;
+
+    color: #333;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-btn:hover {
+    background: #ffd633;
+}
+
+
+h2 {
+    margin-bottom: 1rem;
+    color: #2e8b57;
+   
+}
+
+
+button {
+    background: #2e8b57;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #3fa76b;
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #f1c40f;
+    text-decoration: none;
+}
