@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>tinus errors</h2>
+    <p>to help tinu<b>catch</b>to display an erorr.</p>
+    <p id="error_message"></p>
+    <script>
+        try {
+            addalert("welcome guest!");
+        }
+        catch (err) {
+            document.getElementById("error_message").innerHTML = err.message;
+        }
+    </script>
+</body>
+
+</html>
