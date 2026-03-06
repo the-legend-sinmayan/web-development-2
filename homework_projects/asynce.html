@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>async</title>
+
+
+</head>
+<body>
+  <script>
+    function getDataCallback(cb) {
+        setTimeout(() => cb("Data via callback"), 1000);
+      }
+      getDataCallback(console.log);
+
+      // Promise style
+      function getDataPromise() {
+        return new Promise(resolve => {
+          setTimeout(() => resolve("Data via promise"), 1000);
+        });
+      }
+      getDataPromise().then(console.log);
+
+      // Async/Await style
+      async function getDataAsync() {
+        const data = await getDataPromise();
+        console.log(data);
+      }
+      getDataAsync();
+  </script>
+</body>
+</html>
